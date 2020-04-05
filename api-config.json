@@ -2,9 +2,9 @@
     "name":"Petstore API",
     "path":"/api/v1/petstore",
     "state":"published",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "organization":"API Development",
-    "apiDefinition": "https://petstore.swagger.io/v2/swagger.json",
+    "apiDefinition": "https://gist.githubusercontent.com/danielflower/5c5ae8a46a0a49aee508690c19b33ada/raw/b06ff4d9764b5800424f6a21a40158c35277ee65/petstore.json",
     "image":"swagger-icon.png"
  }
  
