@@ -1,0 +1,10 @@
+{
+    "name":"Petstore API",
+    "path":"/api/v1/petstore",
+    "state":"published",
+    "version":"1.0.0",
+    "organization":"API Development",
+    "apiDefinition": "https://petstore.swagger.io/v2/swagger.json",
+    "image":"swagger-icon.png"
+ }
+ 

@@ -9,14 +9,11 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            // Get some code from a GitHub repository
-            git 'https://github.com/cwiechmann/imagine-api-demo.git'
+            // Get the repository from GitHub
+            git 'https://github.com/cwiechmann/sample-api-project.git'
 
-            // Run Maven on a Unix agent.
+            // Run Maven 
             sh "mvn clean exec:java"
-
-            // To run Maven on a Windows agent, use
-            // bat "mvn -Dmaven.test.failure.ignore=true clean package"
          }
       }
    }
